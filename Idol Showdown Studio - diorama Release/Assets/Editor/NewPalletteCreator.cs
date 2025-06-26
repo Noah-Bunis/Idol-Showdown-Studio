@@ -25,8 +25,8 @@ public class NewPalletteCreator : EditorWindow
 
     public NewPalletteCreator() 
     {
-        minSize = new Vector2(450, 450);
-        maxSize = new Vector2(450, 450);
+        minSize = new Vector2(900, 900);
+        maxSize = new Vector2(900, 900);
     }
 
     [MenuItem("Idol Showdown/Palette Editor", false, -1)]
@@ -399,6 +399,9 @@ public class NewPalletteCreator : EditorWindow
                     break;
                 case 10:
                     charName = "Ina";
+                    break;
+                case 11:
+                    charName = "Koyori";
                     break;
             }
 
