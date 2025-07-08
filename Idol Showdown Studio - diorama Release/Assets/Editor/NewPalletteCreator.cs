@@ -87,7 +87,8 @@ public class NewPalletteCreator : EditorWindow
             "Outfit 16",
             "Outfit 17",
             "Outfit 18",
-            "Outfit 19"
+            "Outfit 19",
+            "Outfit 20"
         };
         outfit = EditorGUILayout.Popup(outfit, nums);
 
