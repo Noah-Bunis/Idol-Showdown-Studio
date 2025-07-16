@@ -10,7 +10,7 @@ public class FolderPaletteAn : EditorWindow
     private static List<Color> colors = new List<Color>();
     private static List<string> files = new List<string>();
 
-    //[MenuItem("Idol Showdown/Dev/Palette Analysis", false, 1)]
+    [MenuItem("Idol Showdown/Dev/Palette Analysis", false, 1)]
     public static void PalleteWindow()
     {
         GetWindow(typeof(FolderPaletteAn), true, "Pallete Editor");
